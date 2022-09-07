@@ -9,7 +9,7 @@ module "compute" {
   host_os           = var.host_os
   node_name         = "main"
   key_name          = ""
-  instance_type     = "t2-micro"
+  instance_type     = "t2.micro"
 }
 
 module "enel-dev" {
