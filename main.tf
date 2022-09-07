@@ -8,7 +8,7 @@ module "compute" {
   subnet_id         = module.networking.subnet_id
   host_os           = var.host_os
   node_name         = "main"
-  key_name          = "main-key"
+  key_name          = ""
   instance_type     = "t2-micro"
 }
 
