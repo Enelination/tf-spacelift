@@ -19,7 +19,7 @@ module "enel-dev" {
   host_os           = "linux"
   node_name         = "enel"
   key_name          = "enel-key"
-  instance_type     = "t2-micro"
+  instance_type     = "t2.micro"
 
 }
 
