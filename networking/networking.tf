@@ -65,7 +65,3 @@ resource "aws_security_group" "mtc_sg" {
   }
 }
 
-resource "aws_key_pair" "mtc_auth" {
-  key_name   = "mtckey2"
-  public_key = file("/mnt/workspace/mtckey.pub")
-}

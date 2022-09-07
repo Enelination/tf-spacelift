@@ -1,3 +1,8 @@
+resource "aws_key_pair" "mtc_auth" {
+  key_name   = "mtckey2"
+  public_key = file("/mnt/workspace/mtckey.pub")
+}
+
 resource "aws_instance" "dev_node" {
   instance_type          = "t2.micro"
   ami                    = data.aws_ami.server_ami.id
