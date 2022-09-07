@@ -4,5 +4,5 @@ variable "host_os" {
   default = "linux"
 }
 variable "aws_region" {
-  ttype = string
+  type = string
 }
